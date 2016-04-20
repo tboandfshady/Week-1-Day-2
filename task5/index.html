@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+	
+<!--PARAGRAPH TAG WITH ID TO DISPLAY THE DATE AND TIME-->
+<p id="thetime"></p>
+
+<script>
+
+// GETS THE TIME AND DATE AND STORES UNDER VAR DATE
+var date = new Date();
+	
+// SENDS THE DATE AND TIME TO THE PARAGRAPH TAG IN THE HTML
+document.getElementById("thetime").innerHTML = "The date and time is: <br ><br >" + date;
+	
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+	
+<p>This is a nested loop which will skip the step where i is equal to 5.</p>
+
+<p id="textbox"></p>	
+
+	
+<script>
+function myFunction() {
+    var text = "";
+    var i;
+    for (i = 0; i < 10; i++) {
+        if (i === 5) {
+            continue;
+        }
+        document.write(i);
+    }
+}
+	myFunction()
+</script>
+
+
+	
+</body>
+</html>
